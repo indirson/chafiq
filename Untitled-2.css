@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Arvo', serif;
+
+}
+.main2{
+    background-color: black;
+}
+
+.headbox {
+    border-radius: 0px 0px 20px 20px;
+    width: flex;
+    position: sticky;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: grey;
+}
+
+.boxtext {
+    background-color: grey;
+}
+
+.headbox-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: grey;
+}
+
+.headbox-items li {
+    background-color: grey;
+}
+
+.headbox-items .item {
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    background-color: grey;
+
+}
+
+
+.middle {
+    display: grid;
+    grid-template-columns: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.name {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: large;
+    color: aliceblue;
+    padding-block-start: 80%;
+
+}
+
+.name1 {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: medium;
+    color: grey;
+}
+
+.img1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column: 2;
+    padding: 30px;
+    display: block;
+    border-radius: 60%;
+    margin-left: 20%;
+
+
+}
+
+.button1 {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgb(90, 150, 0);
+    border-radius: 5px;
+    border-color: rgb(90, 150, 0);
+    box-shadow: 0px 1px 20px rgb(90, 150, 0);
+    font-size: 20px;
+    padding: 8px;
+}
+
+.button1 a {
+    text-decoration: none;
+    background-color: rgb(90, 150, 0);
+    color: whitesmoke;
+}
+
+.foot {
+    position: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.foot span {
+    text-align: right;
+    color: aliceblue;
+
+}
+
+.foot .buttons {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.buttons button {
+    font-size: large;
+    padding: 2%;
+    color: rgb(139, 139, 139);
+    border-color: rgb(70, 70, 70);
+    border-style: ridge;
+    border-width: 1px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: black;
+}
+
+.Case {
+    width: flex;
+    display: grid;
+    grid-template-columns: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    
+    font-size: small;
+    color: rgb(100, 100, 100);
+}
+
+.top {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    padding: 20px;
+}
+
+.img12 {
+    grid-column: 2;
+    grid-row: 2;
+    display: flexbox;
+    padding: 10px;
+}
+.img12 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 1cqmax;
+}
+.img13{ 
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    padding: 10px;
+}
+.img13 img{
+    width: 100%;
+    height: 50%;
+    padding-top: 56px;
+    border-radius: 1cqmax;
+}
+.img14{
+    grid-column: 2;
+    grid-row: 4;
+}
+.img14 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1cqmax;
+}
+
+.top-title {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.top .sec {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.third {
+    grid-column: 2;
+    grid-row: 3;
+    padding-top: 100px;
+}
+
+.forth {
+    grid-column: 1;
+    grid-row: 4;
+    margin-bottom: 30%;
+}
+
+.sec-but {
+    font-size: 11px;
+    color: orange;
+    padding: 2px;
+    background-color: rgb(255, 236, 200);
+    border-radius: 9cqmax;
+}
+
+.sec button {
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: none;
+
+}
+
+.third button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 0, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px -1px 30px rgb(146, 146, 146);
+}
+
+.work-forth {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.forth button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 196, 88);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px -1px 30px rgb(146, 146, 146);
+}
+
+.title-third {
+    font-size: 11px;
+    color: rgb(38, 0, 255);
+    padding: 2px;
+    background-color: rgb(200, 242, 255);
+    border-radius: 9cqmax;
+}
+
+.title-forth {
+    font-size: 11px;
+    color: rgb(1, 92, 42);
+    padding: 3px;
+    background-color: rgb(200, 255, 243);
+    border-radius: 9cqmax;
+}
